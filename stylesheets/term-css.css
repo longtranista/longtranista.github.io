@@ -1,0 +1,64 @@
+/* line 3, ../sass/term-css.scss */
+.left {
+  float: left;
+}
+
+/* line 6, ../sass/term-css.scss */
+.right {
+  float: right;
+}
+
+/* line 9, ../sass/term-css.scss */
+.clear {
+  clear: both;
+}
+
+/* line 13, ../sass/term-css.scss */
+.grey {
+  color: #c7c7c7;
+}
+
+/* line 16, ../sass/term-css.scss */
+.warning {
+  color: #d96f73;
+}
+
+/* line 19, ../sass/term-css.scss */
+.aqua {
+  color: #3ec1f5;
+}
+
+/* line 22, ../sass/term-css.scss */
+.purple {
+  color: #d49dfb;
+}
+
+/* line 25, ../sass/term-css.scss */
+.green {
+  color: #17ef94;
+}
+
+/* line 28, ../sass/term-css.scss */
+.border {
+  border: 1px solid #16523b;
+}
+
+/* line 32, ../sass/term-css.scss */
+body {
+  background: #262626;
+  color: #f9f9f5;
+  font-family: monaco, Consolas, Lucida Console, monospace;
+  font-size: 14px;
+}
+
+/* line 38, ../sass/term-css.scss */
+input[type=text] {
+  background: none;
+  border-width: 0 0 1px 0;
+  color: #f9f9f5;
+}
+
+/* line 43, ../sass/term-css.scss */
+input:focus {
+  outline: none;
+}

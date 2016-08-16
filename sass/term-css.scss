@@ -1,0 +1,45 @@
+@import "_vars";
+
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.clear{
+  clear: both;
+}
+
+.grey{
+  color: $greyTextColor;
+}
+.warning{
+  color: lighten($errorColor, 10%);
+}
+.aqua{
+  color: $aquaColor;
+}
+.purple{
+  color: $purpleColor;
+}
+.green{
+  color: lighten($greenColor, 15%);
+}
+.border{
+  border: 1px solid $borderColor;
+}
+
+body{
+  background: $backgroundColor;
+  color: $whiteColor;
+  font-family: $fontFamily;
+  font-size: 14px;
+}
+input[type=text]{
+  background: none;
+  border-width: 0 0 1px 0;
+  color: $whiteColor;
+}
+input:focus{
+    outline: none;
+}
